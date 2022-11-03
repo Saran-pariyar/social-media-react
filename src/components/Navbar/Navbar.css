@@ -1,0 +1,45 @@
+.nav{
+    padding: .2rem;
+    border-right: 2px solid black;
+    height: auto;
+    margin-right: 10rem;
+    position: sticky;
+    top: 0;
+    overflow-y: hidden;
+    height: 100vh;
+}
+.logo {
+    margin-bottom: 1.5rem;
+}
+.logo h1{
+    font-size: 2rem;
+    color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+    
+}
+.nav-list{
+    list-style: none;
+    
+}
+.nav-list li{
+    font-size: 1.3rem;
+    margin:2rem .5rem;
+    display : flex; 
+    align-items : center; 
+    transition: .3s all;
+}
+.nav-list li:hover{
+    cursor: pointer;
+    background: #4d464a;
+    border-radius: 10px;
+    color: #ffff;
+
+}
+.menu-icons{
+    margin: 0 1rem 0 0;
+    font-size: 1.5rem;
+
+}
