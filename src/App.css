@@ -8,3 +8,18 @@ font-family: "Poppins";
 .App{
     display: flex;
 }
+
+.page-margin{
+    height: 120vh;
+    position: relative;
+    top: 3rem;
+    /* border-top: 2px solid black; */
+    width: auto;
+    left: 30rem;
+}
+@media only screen and (max-width:900px) {
+    .page-margin{
+        left: auto;
+        top: 4rem;
+    }
+}

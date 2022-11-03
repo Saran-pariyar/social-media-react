@@ -1,13 +1,13 @@
 .nav{
-    padding: 0rem;
     border-right: 2px solid black;
     height: auto;
-    margin-right: 10rem;
+    margin-right: 15rem;
     position: fixed;
     /* top: 0; */
     /* overflow-y: hidden; */
     height: 100%;
     z-index: 10;
+    padding: 0 2.5rem;
 }
 .logo {
     margin-bottom: 1.5rem;
@@ -31,6 +31,8 @@
     display : flex; 
     align-items : center; 
     transition: .3s all;
+    padding:0 .5rem;
+
 }
 .nav-list li:hover{
     cursor: pointer;
@@ -51,6 +53,8 @@
     .nav{
         border: none;
         position: fixed;
+        margin-right: 10rem;
+        padding: 0;
     }
     .logo{
         position: fixed;
@@ -68,6 +72,7 @@
     }
     .nav-list li{
         position: fixed;
+        padding: 0;
     }
     .notification-nav{
         position: fixed;

@@ -10,6 +10,8 @@ import {
   AiOutlineProfile
 } from "react-icons/ai";
 import { BiBookAdd } from "react-icons/bi";
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="nav">

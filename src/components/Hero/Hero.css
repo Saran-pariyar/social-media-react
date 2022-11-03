@@ -4,7 +4,7 @@
     top: 3rem;
     /* border-top: 2px solid black; */
     width: auto;
-    left: 20vw;
+    left: 30rem;
 }
 @media only screen and (max-width:900px) {
     .hero-section{
