@@ -19,30 +19,47 @@ const Navbar = () => {
         <h1>Instagram </h1>
       </div>
       <ul className="nav-list">
-        <li className="home-nav ">
+        <li className="">
+        <NavLink to="/" className="NavLinks home-nav">
           <AiFillHome className="menu-icons" /><p className="menu-name">Home</p>
+          </NavLink>
         </li>
-        <li className="search-nav ">
+        <li >
+        <NavLink to="/search" className="NavLinks search-nav">
           <AiOutlineSearch className="menu-icons" /><p className="menu-name">Search</p>
+          </NavLink>
         </li>
-        <li className=" explore-nav">
+        <li >
+          <NavLink to="/explore" className="NavLinks explore-nav">
           <AiOutlineCompass className="menu-icons" /><p className="menu-name">Explore</p>
+          </NavLink>
         </li>
-        <li className=" message-nav">
+        <li className="">
+        <NavLink to="/message" className="NavLinks message-nav">
           <AiOutlineMessage className="menu-icons" /><p className="menu-name">Messages</p>
+          </NavLink>
         </li>
-        <li className="notification-nav ">
+        <li className="">
+        <NavLink to="/notification" className="NavLinks notification-nav">
           <AiOutlineHeart className="menu-icons" /><p className="menu-name">Notifications</p>
+          </NavLink>
         </li>
-        <li className="create-nav ">
+        <li className="">
+        <NavLink to="/create" className="NavLinks create-nav">
           <BiBookAdd className="menu-icons" /><p className="menu-name">Create</p>
+          </NavLink>
         </li>
-        <li className=" profile-nav">
+        <li className="">
+        <NavLink to="/profile" className="NavLinks profile-nav">
         <AiOutlineProfile className="menu-icons" />
           <p className="menu-name">
-           Profile</p></li>
-        <li className="more-nav">
+           Profile</p>
+           </NavLink>
+           </li>
+        <li className="">
+        <NavLink to="/more" className="NavLinks more-nav">
           <AiOutlineMenu className="menu-icons" /><p className="menu-name">More</p>
+          </NavLink>
         </li>
       </ul>
       <span className="for-nav-z-index"></span>

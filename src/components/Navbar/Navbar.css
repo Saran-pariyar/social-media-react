@@ -25,16 +25,18 @@
     list-style: none;
     
 }
-.nav-list li{
+.NavLinks{
     font-size: 1.3rem;
     margin:2rem .5rem;
     display : flex; 
     align-items : center; 
     transition: .3s all;
     padding:0 .5rem;
+    text-decoration: none;
+    color: #000000;
 
 }
-.nav-list li:hover{
+.NavLinks:hover{
     cursor: pointer;
     background: #4d464a;
     border-radius: 10px;
@@ -70,7 +72,7 @@
     .menu-name{
         display: none;
     }
-    .nav-list li{
+    .NavLinks{
         position: fixed;
         padding: 0;
     }
