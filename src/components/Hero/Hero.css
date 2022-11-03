@@ -1,3 +1,14 @@
 .hero-section{
     height: 120vh;
+    position: relative;
+    top: 3rem;
+    /* border-top: 2px solid black; */
+    width: auto;
+    left: 20vw;
+}
+@media only screen and (max-width:900px) {
+    .hero-section{
+        left: auto;
+        top: 4rem;
+    }
 }

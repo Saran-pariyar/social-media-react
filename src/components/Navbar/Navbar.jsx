@@ -7,6 +7,7 @@ import {
   AiOutlineMessage,
   AiOutlineHeart,
   AiOutlineMenu,
+  AiOutlineProfile
 } from "react-icons/ai";
 import { BiBookAdd } from "react-icons/bi";
 const Navbar = () => {
@@ -16,29 +17,35 @@ const Navbar = () => {
         <h1>Instagram </h1>
       </div>
       <ul className="nav-list">
-        <li>
-          <AiFillHome className="menu-icons" />Home
+        <li className="home-nav ">
+          <AiFillHome className="menu-icons" /><p className="menu-name">Home</p>
         </li>
-        <li>
-          <AiOutlineSearch className="menu-icons" />Search
+        <li className="search-nav ">
+          <AiOutlineSearch className="menu-icons" /><p className="menu-name">Search</p>
         </li>
-        <li>
-          <AiOutlineCompass className="menu-icons" />Explore
+        <li className=" explore-nav">
+          <AiOutlineCompass className="menu-icons" /><p className="menu-name">Explore</p>
         </li>
-        <li>
-          <AiOutlineMessage className="menu-icons" />Messages
+        <li className=" message-nav">
+          <AiOutlineMessage className="menu-icons" /><p className="menu-name">Messages</p>
         </li>
-        <li>
-          <AiOutlineHeart className="menu-icons" />Notifications
+        <li className="notification-nav ">
+          <AiOutlineHeart className="menu-icons" /><p className="menu-name">Notifications</p>
         </li>
-        <li>
-          <BiBookAdd className="menu-icons" />Create
+        <li className="create-nav ">
+          <BiBookAdd className="menu-icons" /><p className="menu-name">Create</p>
         </li>
-        <li>Profile</li>
-        <li>
-          <AiOutlineMenu className="menu-icons" />More
+        <li className=" profile-nav">
+        <AiOutlineProfile className="menu-icons" />
+          <p className="menu-name">
+           Profile</p></li>
+        <li className="more-nav">
+          <AiOutlineMenu className="menu-icons" /><p className="menu-name">More</p>
         </li>
       </ul>
+      <span className="for-nav-z-index"></span>
+      <span className="line-1 menu-line"></span>
+      <span className="line-2 menu-line"></span>
     </nav>
   );
 };

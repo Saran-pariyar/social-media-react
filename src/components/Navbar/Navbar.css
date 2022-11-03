@@ -1,12 +1,13 @@
 .nav{
-    padding: .2rem;
+    padding: 0rem;
     border-right: 2px solid black;
     height: auto;
     margin-right: 10rem;
-    position: sticky;
-    top: 0;
-    overflow-y: hidden;
-    height: 100vh;
+    position: fixed;
+    /* top: 0; */
+    /* overflow-y: hidden; */
+    height: 100%;
+    z-index: 10;
 }
 .logo {
     margin-bottom: 1.5rem;
@@ -42,4 +43,95 @@
     margin: 0 1rem 0 0;
     font-size: 1.5rem;
 
+}
+.menu-line,.for-nav-z-index{
+    display: none;
+}
+@media only screen and (max-width:900px)  {
+    .nav{
+        border: none;
+        position: fixed;
+    }
+    .logo{
+        position: fixed;
+        top: .5rem;
+        left: .5rem;
+        width: 100%;
+        z-index: 12;
+
+    }
+    .logo h1{
+        font-size: 1.2rem;; 
+    }
+    .menu-name{
+        display: none;
+    }
+    .nav-list li{
+        position: fixed;
+    }
+    .notification-nav{
+        position: fixed;
+        top: -1rem;
+        right: .5rem; 
+        z-index: 12;
+
+    }
+    .more-nav{
+        position: fixed;
+        top: -1rem;
+        right: 3.5rem;
+        z-index: 12;
+
+    }
+    .search-nav{
+        position: fixed;
+        top: -1rem;
+        right: 6rem;
+        z-index: 12;
+    }
+    .home-nav{
+        bottom: 0;
+        left: 2vw;
+    }
+    .explore-nav{
+        bottom: 0;
+        left: 20vw;
+    }
+    .create-nav{
+        bottom: 0;
+        left: 40vw;
+    }
+    .message-nav{
+        bottom: 0;
+        left: 60vw;
+    }
+    .profile-nav{
+        bottom: 0;
+        left: 80vw;
+ 
+    }
+    .menu-line{
+        display: block;
+        width: 101vw;
+        position: fixed;
+        left: -.1rem;
+        overflow: hidden;
+        background-color: black;
+        height: 2px;
+    }
+    .line-1{
+        top: 3rem;
+    }
+    .line-2{
+        bottom: 4rem;
+    }
+    .for-nav-z-index{
+        position: fixed;
+        width: 100%;
+        height: 3rem;
+        top: 0;
+        z-index: 11;
+        display: block;
+        background-color: white;
+    }
 }
