@@ -1,0 +1,7 @@
+.search-section{
+    border : 2px solid black ;
+    position: fixed;
+    top: 0;
+    left: 17.8rem;
+    width: 30vw;
+}

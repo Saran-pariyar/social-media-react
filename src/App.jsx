@@ -21,13 +21,10 @@ function App() {
       <Route path="/message" element={<Message />}></Route>
       <Route path="/profile" element={<Profile  /> }></Route>
       <Route path="/notification" element={<Notification /> }></Route>
-      <Route path="/search" element={<Search /> }></Route>
-
-
-  
-      
+      <Route path="/search" element={<Search /> }></Route>    
       </Routes>
       </BrowserRouter>
+      <Search />
     </div>
   );
 }

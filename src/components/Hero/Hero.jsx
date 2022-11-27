@@ -1,4 +1,5 @@
 import React from 'react'
+// import Search from '../../pages/Search/Search'
 import "./Hero.css"
 import Story from './Story'
 
@@ -8,6 +9,7 @@ const Hero = () => {
       alert("Did you mean saran pariyar?")
     }}> Hero</span>
         <Story />
+        {/* <Search /> */}
     </div>
   )
 }
