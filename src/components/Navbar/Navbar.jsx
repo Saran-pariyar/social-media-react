@@ -78,6 +78,7 @@ if ( showSearch){
       <span className="for-nav-z-index"></span>
       <span className="line-1 menu-line"></span>
       <span className="line-2 menu-line"></span>
+      <span className="for-mobile-nav"></span>
     </nav>
   );
 };

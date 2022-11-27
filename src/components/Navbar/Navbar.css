@@ -132,6 +132,17 @@
     .line-2{
         bottom: 4rem;
     }
+    .for-mobile-nav{
+        height: 4rem;
+        background-color: white;
+        width: 100%;
+        border : 2px solid black ;
+        position: fixed;
+        /* top: 0; */
+        left: 0;
+        bottom: 0;
+        z-index: -1; 
+    }
     .for-nav-z-index{
         position: fixed;
         width: 100%;
