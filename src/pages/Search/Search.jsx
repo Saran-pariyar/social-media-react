@@ -1,9 +1,15 @@
 import React from 'react'
 import './Search.css'
+import { useGlobalContext } from '../../context/Context';
+
+
 const Search = () => {
+  const {showSearch} = useGlobalContext();
+  console.log(showSearch);
+  
   return (
     <div className='page-margin'>
-      <div className="search-section">
+      <div className={`search-section  ${showSearch ? "show" : ""}` }>
         <h1>Search</h1>
         <div className="search-input-section"><input type="text" /></div>
         <div className="result-section">

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./Navbar.css";
 import {
   AiFillHome,
@@ -10,13 +10,26 @@ import {
   AiOutlineProfile
 } from "react-icons/ai";
 import { BiBookAdd } from "react-icons/bi";
-import { NavLink } from "react-router-dom";
+import { NavLink,useLocation } from "react-router-dom";
+import { useGlobalContext } from '../../context/Context';
+
 
 const Navbar = () => {
+  const {showSearch,setShowSearch} = useGlobalContext();
+  function show_search(){
+    showSearch ? setShowSearch(false) : setShowSearch(true);
+  }
+  const location = useLocation();
+  useEffect(() => {
+if ( showSearch){
+  setShowSearch(false)
+}
+    
+  }, [location]);
   return (
     <nav className="nav">
       <div className="logo">
-        <h1>Instagram </h1>
+        <h1 >Instagram </h1>
       </div>
       <ul className="nav-list">
         <li className="">
@@ -25,9 +38,9 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li >
-        <NavLink to="/search" className="NavLinks search-nav">
-          <AiOutlineSearch className="menu-icons" /><p className="menu-name">Search</p>
-          </NavLink>
+        <p to="/search" className="NavLinks search-nav" onClick={show_search}>
+          <AiOutlineSearch className="menu-icons" /><span className="menu-name">Search</span>
+          </p>
         </li>
         <li >
           <NavLink to="/explore" className="NavLinks explore-nav">
