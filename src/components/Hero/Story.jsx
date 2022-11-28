@@ -2,7 +2,10 @@ import "./Story.css"
 
 const Story = () => {
   return (
-    <div>Story</div>
+    <section className="story-section">
+
+
+    </section>
   )
 }
 

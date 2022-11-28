@@ -1,11 +1,25 @@
 .hero-section{
     height: 120vh;
     position: relative;
-    top: 3rem;
+    top: 1rem;
     /* border-top: 2px solid black; */
-    width: auto;
-    left: 30rem;
+    width: 60rem;
+    left: 20rem;
+    border : 2px solid yellowgreen ; 
+    /* display : flex; 
+    align-items: center; 
+    flex-direction: column; */
+    display: flex;
+    
 }
+/* .right-side{
+    float: right;
+    border : 2px solid black ; 
+}
+.feed-section{
+    float:none;
+    border : 2px solid black ;
+} */
 @media only screen and (max-width:900px) {
     .hero-section{
         left: auto;
