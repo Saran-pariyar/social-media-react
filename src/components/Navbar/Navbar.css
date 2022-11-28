@@ -38,11 +38,12 @@
 }
 .NavLinks:hover{
     cursor: pointer;
-    background: #4d464a;
-    border-radius: 10px;
-    color: #ffff;
-
+    /* background: #4d464a; */
+    /* border-radius: 10px; */
+    color: rgb(129, 112, 112);
+    /* text-decoration: underline; */
 }
+
 .menu-icons{
     margin: 0 1rem 0 0;
     font-size: 1.5rem;
@@ -51,7 +52,7 @@
 .menu-line,.for-nav-z-index{
     display: none;
 }
-@media only screen and (max-width:900px)  {
+@media only screen and (max-width:800px)  {
     .nav{
         border: none;
         position: fixed;
@@ -97,29 +98,29 @@
         z-index: 12;
     }
     .home-nav{
-        bottom: 0;
-        left: 2vw;
+        bottom: -.5rem;
+        left: 3.5vw;
     }
     .explore-nav{
-        bottom: 0;
-        left: 20vw;
+        bottom: -.5rem;
+        left: 23.5vw;
     }
     .create-nav{
-        bottom: 0;
-        left: 40vw;
+        bottom: -.5rem;
+        left: 43.5vw;
     }
     .message-nav{
-        bottom: 0;
-        left: 60vw;
+        bottom: -.5rem;
+        left: 63.5vw;
     }
     .profile-nav{
-        bottom: 0;
-        left: 80vw;
+        bottom: -.5rem;
+        left: 83.5vw;
  
     }
     .menu-line{
         display: block;
-        width: 101vw;
+        width: 103.5vw;
         position: fixed;
         left: -.1rem;
         overflow: hidden;
@@ -136,11 +137,11 @@
         height: 4rem;
         background-color: white;
         width: 100%;
-        border : 2px solid black ;
+        /* border : 2px solid black ; */
         position: fixed;
         /* top: 0; */
         left: 0;
-        bottom: 0;
+        bottom: -.5rem;
         z-index: -1; 
     }
     .for-nav-z-index{

@@ -4,8 +4,10 @@
     top: 0;
     width: 30vw;
     /* left: -100%; */
-    left:   17.8rem;
+    left:   17.7rem;
     display: none;
+    background-color: rgb(238, 233, 233);
+    padding: 1rem;
 }
 .show{
     display: block;

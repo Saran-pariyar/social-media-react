@@ -9,6 +9,7 @@ const Search = () => {
   
   return (
     <div className='page-margin'>
+      {/* now the search-section will have display:block if the showSearch is true */}
       <div className={`search-section  ${showSearch ? "show" : ""}` }>
         <h1>Search</h1>
         <div className="search-input-section"><input type="text" /></div>
