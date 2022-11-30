@@ -6,23 +6,14 @@
     width: 60rem;
     left: 20rem;
     border : 2px solid yellowgreen ; 
-    /* display : flex; 
-    align-items: center; 
-    flex-direction: column; */
     display: flex;
     
 }
-/* .right-side{
-    float: right;
-    border : 2px solid black ; 
-}
-.feed-section{
-    float:none;
-    border : 2px solid black ;
-} */
 @media only screen and (max-width:900px) {
     .hero-section{
         left: auto;
         top: 4rem;
+        width: 100%;
+        flex-direction: column;
     }
 }

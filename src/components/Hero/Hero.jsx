@@ -7,7 +7,8 @@ import Story from './Story'
 
 const Hero = () => {
   return (
-    <div className="hero-section"><span onClick={()=>{
+    <div className="hero-section">
+      <span onClick={()=>{
       alert("Did you mean saran pariyar?")
     }}> Hero</span>
     <div className="left">

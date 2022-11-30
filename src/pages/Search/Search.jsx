@@ -8,9 +8,9 @@ const Search = () => {
   console.log(showSearch);
   
   return (
-    <div className='page-margin'>
+    <div className='page-margin' >
       {/* now the search-section will have display:block if the showSearch is true */}
-      <div className={`search-section  ${showSearch ? "show" : ""}` }>
+      <div className={`search-section  ${showSearch ? "show" : ""}` } id="search_section">
         <h1 className='search-title'>Search</h1>
         <div className="search-input-section">
           <FaSearch className='search-icon' />
