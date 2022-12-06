@@ -14,7 +14,7 @@ const Search = () => {
         <h1 className='search-title'>Search</h1>
         <div className="search-input-section">
           <FaSearch className='search-icon' />
-          <input type="text" className='search-input' placeholder='Search' /></div>
+          <input type="text" className='search-input' placeholder='Search' autoFocus  /></div>
         <div className="result-section">
           <hr />
           <div className="recent-and-clear-text">

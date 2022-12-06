@@ -98,23 +98,23 @@
         z-index: 12;
     }
     .home-nav{
-        bottom: -.5rem;
+        bottom: -1rem;
         left: 3.5vw;
     }
     .explore-nav{
-        bottom: -.5rem;
+        bottom: -1rem;
         left: 23.5vw;
     }
     .create-nav{
-        bottom: -.5rem;
+        bottom: -1rem;
         left: 43.5vw;
     }
     .message-nav{
-        bottom: -.5rem;
+        bottom: -1rem;
         left: 63.5vw;
     }
     .profile-nav{
-        bottom: -.5rem;
+        bottom: -1rem;
         left: 83.5vw;
  
     }
@@ -131,7 +131,7 @@
         top: 3rem;
     }
     .line-2{
-        bottom: 4rem;
+        bottom: 3rem;
     }
     .for-mobile-nav{
         height: 4rem;
@@ -141,7 +141,7 @@
         position: fixed;
         /* top: 0; */
         left: 0;
-        bottom: -.5rem;
+        bottom: -1rem;
         z-index: -1; 
     }
     .for-nav-z-index{
