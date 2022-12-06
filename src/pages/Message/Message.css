@@ -31,7 +31,31 @@
     border : 2px solid black ; 
     width: 32rem;
 }
-
+.message-person{
+    border-bottom : 1px solid black ; 
+    display: flex;
+    /* padding: .2rem; */
+}
+.message-person:hover{
+    background-color: aliceblue;
+}
+.message-img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin: 0.2rem .5rem;
+    border: 2px solid black;
+}
+.message-person .text-section{
+    width: 100%;
+    /* background-color: red; */
+    padding: 0 .5rem;
+}
+.message-person .name{
+    font-weight: bold;
+    cursor: pointer;
+}
 @media only screen and (max-width:800px) {
     .message-container{
         /* background-color: red; */
@@ -40,12 +64,19 @@
     }
     .message-left{
         border: none;
+        width: 100vw;
 
     }
     .friends-container{
-        padding: 1rem;
+        padding: .5rem 0;
     }
     .message-right{
         display: none;
     }
+    /* .message-img{
+        
+    }
+    .message-person{
+        
+    } */
 }
